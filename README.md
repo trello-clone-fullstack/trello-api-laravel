@@ -455,4 +455,4 @@ Ce projet est sous licence **MIT License**.
 
 ---
 
-**Développé avec ❤️ et Laravel 12**
+**Développé avec Laravel 12**
