@@ -4,36 +4,36 @@ API RESTful pour l'application Trello Clone construite avec **Laravel 12** et **
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
-### 🔐 Authentification
+### Authentification
 - **Inscription et connexion** des utilisateurs
 - **Tokens d'authentification** avec Laravel Sanctum
 - **Gestion des sessions** utilisateur
 - **Protection CSRF** intégrée
 
-### 📋 Gestion de Projets
+###  Gestion de Projets
 - **CRUD complet** des projets
 - **Attribution automatique** des statuts par défaut
 
-### 📊 Statuts des Tâches
+###  Statuts des Tâches
 - **Statuts personnalisables** par projet
 - **Couleurs personnalisées** pour chaque statut
 
-### ✅ Gestion des Tâches
+### Gestion des Tâches
 - **CRUD complet** des tâches
 - **Drag & Drop** pour réorganiser les tâches entre statuts
 - **Mise à jour en temps réel** des positions
 - **Association** aux statuts et projets
 
-### 📚 Documentation API
+### Documentation API
 - **Scramble** pour la documentation automatique
 - **Interface Swagger interactive** (`/docs/api`)
 - **Tests d'API** intégrés
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 | Technologie | Version | Description |
 |-------------|--------|-------------|
@@ -47,7 +47,7 @@ API RESTful pour l'application Trello Clone construite avec **Laravel 12** et **
 
 ---
 
-## 📋 Prérequis
+##  Prérequis
 
 ### Système
 - **PHP 8.2** ou supérieur
@@ -66,7 +66,7 @@ php -m | grep -E "(curl|gd|imagick|zip|sqlite)"
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Cloner le projet
 ```bash
@@ -112,7 +112,7 @@ php artisan serve --host=0.0.0.0 --port=8000
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Variables d'environnement principales
 ```env
@@ -146,7 +146,7 @@ QUEUE_CONNECTION=database
 ---
 
 
-## 📚 Routes API
+## Routes API
 
 ### Authentification
 | Méthode | Route | Description |
@@ -186,7 +186,7 @@ QUEUE_CONNECTION=database
 
 ---
 
-## 📖 Documentation API
+##  Documentation API
 
 ### Accès
 Une fois le serveur démarré, accédez à :
@@ -243,7 +243,7 @@ curl -X GET http://localhost:8000/api/projects \
 
 ---
 
-## 🧪 Scripts Disponibles
+##  Scripts Disponibles
 
 ### Développement
 ```bash
@@ -281,7 +281,7 @@ php artisan cache:clear
 
 ---
 
-## 🔒 Sécurité
+##  Sécurité
 
 ### Laravel Sanctum
 - **Tokens** sécurisés avec expiration configurable
@@ -299,11 +299,10 @@ php artisan cache:clear
 
 ---
 
-## 📊 Base de Données
+## Base de Données
 
 ### Diagramme de la base de données
-Visualisez la structure complète de notre base de données :
-👉 **[Voir le diagramme sur dbdiagram](https://dbdiagram.io/d/Trello_Clone_DB-69afd4a177d079431b472906)**
+Visualisez la structure complète de notre base de données : **[Voir le diagramme sur dbdiagram](https://dbdiagram.io/d/Trello_Clone_DB-69afd4a177d079431b472906)**
 
 ### Structure principale
 ```sql
@@ -398,7 +397,7 @@ Schema::create('tasks', function (Blueprint $table) {
 
 ---
 
-## 🚀 Déploiement
+## Déploiement
 
 ### Production
 ```bash
@@ -420,7 +419,7 @@ npm run build
 
 
 
-## 📞 Support
+## Support
 
 ### Obtenir de l'aide
 - **Documentation Laravel** : [laravel.com/docs](https://laravel.com/docs)
@@ -434,7 +433,7 @@ npm run build
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence **MIT License**.
 
